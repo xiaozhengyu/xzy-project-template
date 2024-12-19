@@ -53,6 +53,7 @@
         <fastjson.version>2.0.34</fastjson.version>
         <transmittable-thread-local.version>2.14.5</transmittable-thread-local.version>
         <httpclient.version>4.5.14</httpclient.version>
+        <spring-cloud-starter-openfeign.version>3.1.9</spring-cloud-starter-openfeign.version>
     </properties>
     
     <dependencyManagement>
@@ -144,6 +145,11 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
                 <version>${httpclient.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-openfeign</artifactId>
+                <version>${spring-cloud-starter-openfeign.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
